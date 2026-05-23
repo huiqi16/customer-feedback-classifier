@@ -37,7 +37,7 @@ Each comment is pre-encoded as a 300-dimensional NLP feature vector. The core ch
 
 - **Features:** 300 NLP-derived numerical features per sample (`X_train.csv`, `X_test_1.csv`, `X_test_2.csv`)
 - **Labels:** 28 classes (`y_train.csv`)
-- **Note:** Raw dataset files are not included in this repo. Place them in a `raw datasets/` folder at the project root.
+- **Note:** Raw dataset files are not included in this repo. Place them in a `raw_datasets/` folder at the project root.
 
 ---
 
@@ -103,7 +103,7 @@ The 3-way stacking method outperformed all individual models and 2-way stacks, a
 
 ```
 .
-├── raw datasets/
+├── raw_datasets/
 │   ├── X_train.csv
 │   ├── y_train.csv
 │   ├── X_test_1.csv
@@ -129,14 +129,14 @@ The 3-way stacking method outperformed all individual models and 2-way stacks, a
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/customer-feedback-classification.git
+git clone https://github.com/huiqi16/customer-feedback-classifier.git
 cd customer-feedback-classification
 
 # Install dependencies
 pip install -r requirements.txt
 ```
 
-Add the dataset CSVs to a `raw datasets/` folder at the project root before running any scripts.
+Add the dataset CSVs to a `raw_datasets/` folder at the project root before running any scripts.
 
 ---
 
