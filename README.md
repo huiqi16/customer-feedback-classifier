@@ -113,10 +113,10 @@ The 3-way stacking method outperformed all individual models and 2-way stacks, a
 │   ├── 02Features_.py       # Feature selection (Permutation Importance)
 │   └── 03_classifier.py     # Model training & stacking ensemble
 ├── notebooks/
-│   ├── 01_EDA.ipynb         # EDA notebook (exploratory)
-│   ├── 02_feature_selection.ipynb
-│   ├── 03_model_comparison.ipynb
-│   └── 04_final_model.ipynb # Final model training + prediction generation
+│   ├── EDA.ipynb            # EDA notebook (exploratory)
+│   ├── feature_selection.ipynb
+│   ├── model_comparison.ipynb
+│   └── final_model.ipynb    # Final model training + prediction generation
 ├── requirements.txt
 └── README.md
 ```
