@@ -1,4 +1,4 @@
-# Customer Feedback Classification — COMP9417 Machine Learning
+# Customer Feedback Classification
 
 > **Multiclass NLP classification** of 10,000 customer comments into 28 product categories using a stacked ensemble of Logistic Regression, Random Forest, and XGBoost.
 
